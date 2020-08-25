@@ -118,6 +118,7 @@ class RLstm(object):
         # 声明输出标记向量
         self.label = T.vector()
 
+        # 句子向量=词向量和的平均
         x_t = T.mean(self.V_all[self.v_num[self.data[:, 0]]+self.data[:, 2]], 0)
 
         # 训练的预测表达式
@@ -130,14 +131,6 @@ class RLstm(object):
         self.loss = self.loss_supervised
 
         # 计算各参数的梯度值
-        # grads = T.grad(self.loss, self.params)
-        # self.updates = collections.OrderedDict()
-        # self.grad = {}
-        # for param, grad in zip(self.params, grads):
-        #     g = theano.shared(np.asarray(np.zeros_like(param.get_value()),
-        #                                  dtype=theano.config.floatX))
-        #     self.grad[param] = g
-        #     self.updates[g] = g + grad
         gw = T.grad(self.loss, self.W_hy)
         gb = T.grad(self.loss, self.b_hy)
 

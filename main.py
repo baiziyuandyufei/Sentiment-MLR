@@ -21,13 +21,6 @@ parser.add_argument('--dataset', type=str, default='mr/mr2')
 parser.add_argument('--batch_size', type=int, default=2000)
 # 批次总数（不严格的周期数量）
 parser.add_argument('--batch_num', type=int, default=200)
-# 参数优化方法
-parser.add_argument('--optimizer', type=str, default='ADAGRAD',
-                    choices=['SGD', 'ADAGRAD', 'ADADELTA'])
-# 参数学习速率
-parser.add_argument('--lr', type=float, default=0.1)
-# 词向量学习速率
-parser.add_argument('--lr_vector', type=float, default=0.2)
 # 每隔多少个批次输出一次准确率 设置为一个周期所含批次数量。
 parser.add_argument('--interval', type=int, default=10)
 
