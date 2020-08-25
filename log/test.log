@@ -1,0 +1,134 @@
+16:30:56 main.py[line:30] command: python /Volumes/LENOVO_USB_/git_code/sentiment/code/Linguistically-Regularized-LSTM-for-Sentiment-Classification/main.py
+16:31:16 RLstm.py[line:35] Model init: test
+16:31:16 RLstm.py[line:39] RandomStream seed 17292325
+16:31:16 RLstm.py[line:45] dim: hidden=300, leaf=50
+16:31:16 RLstm.py[line:48] grained: 2
+16:31:16 RLstm.py[line:55] vocabulary size: {'negation': 7, 'intensifier': 6, 'sentiment': 0, 'words': 112323}
+16:31:18 RLstm.py[line:120] loading word vectors...
+16:31:29 RLstm.py[line:135] word vector for negation, 0 not found.
+16:31:29 RLstm.py[line:135] word vector for intensifier, 0 not found.
+16:31:29 RLstm.py[line:135] word vector for sentiment, 0 not found.
+16:31:30 RLstm.py[line:135] word vector for words, 86240 not found.
+16:31:31 RLstm.py[line:139] init function...
+16:31:31 RLstm.py[line:182] getting grads...
+16:31:32 RLstm.py[line:198] compiling func of train...
+16:31:44 RLstm.py[line:206] compiling func of test...
+16:31:47 main.py[line:52] loss for batch 0: 0.719 0.719
+16:31:50 main.py[line:52] loss for batch 1: 0.709 0.709
+16:31:53 main.py[line:52] loss for batch 2: 0.707 0.707
+16:31:56 main.py[line:52] loss for batch 3: 0.717 0.717
+16:31:59 main.py[line:52] loss for batch 4: 0.712 0.712
+16:32:02 main.py[line:52] loss for batch 5: 0.724 0.724
+16:32:06 main.py[line:52] loss for batch 6: 0.705 0.705
+16:32:09 main.py[line:52] loss for batch 7: 0.716 0.716
+16:32:12 main.py[line:52] loss for batch 8: 0.715 0.715
+16:32:16 main.py[line:52] loss for batch 9: 0.702 0.702
+16:32:20 main.py[line:52] loss for batch 10: 0.717 0.717
+16:32:23 main.py[line:52] loss for batch 11: 0.723 0.723
+16:32:26 main.py[line:52] loss for batch 12: 0.719 0.719
+16:32:30 main.py[line:52] loss for batch 13: 0.713 0.713
+16:32:32 main.py[line:52] loss for batch 14: 0.703 0.703
+16:32:34 main.py[line:52] loss for batch 15: 0.716 0.716
+16:32:37 main.py[line:52] loss for batch 16: 0.706 0.706
+16:32:41 main.py[line:52] loss for batch 17: 0.707 0.707
+16:32:44 main.py[line:52] loss for batch 18: 0.711 0.711
+16:32:46 main.py[line:52] loss for batch 19: 0.719 0.719
+16:32:49 main.py[line:52] loss for batch 20: 0.715 0.715
+16:32:52 main.py[line:52] loss for batch 21: 0.710 0.710
+16:32:56 main.py[line:52] loss for batch 22: 0.712 0.712
+16:32:58 main.py[line:52] loss for batch 23: 0.705 0.705
+16:33:02 main.py[line:52] loss for batch 24: 0.715 0.715
+16:33:06 main.py[line:52] loss for batch 25: 0.703 0.703
+16:33:09 main.py[line:52] loss for batch 26: 0.708 0.708
+16:33:12 main.py[line:52] loss for batch 27: 0.716 0.716
+16:33:15 main.py[line:52] loss for batch 28: 0.717 0.717
+16:33:19 main.py[line:52] loss for batch 29: 0.714 0.714
+16:33:21 main.py[line:52] loss for batch 30: 0.717 0.717
+16:33:23 main.py[line:52] loss for batch 31: 0.711 0.711
+16:33:26 main.py[line:52] loss for batch 32: 0.706 0.706
+16:33:28 main.py[line:52] loss for batch 33: 0.723 0.723
+16:33:31 main.py[line:52] loss for batch 34: 0.713 0.713
+16:33:34 main.py[line:52] loss for batch 35: 0.715 0.715
+16:33:38 main.py[line:52] loss for batch 36: 0.711 0.711
+16:33:41 main.py[line:52] loss for batch 37: 0.717 0.717
+16:33:44 main.py[line:52] loss for batch 38: 0.705 0.705
+16:33:47 main.py[line:52] loss for batch 39: 0.723 0.723
+16:33:50 main.py[line:52] loss for batch 40: 0.702 0.702
+16:33:53 main.py[line:52] loss for batch 41: 0.713 0.713
+16:33:57 main.py[line:52] loss for batch 42: 0.708 0.708
+16:34:01 main.py[line:52] loss for batch 43: 0.717 0.717
+16:34:04 main.py[line:52] loss for batch 44: 0.719 0.719
+16:34:07 main.py[line:52] loss for batch 45: 0.721 0.721
+16:34:12 main.py[line:52] loss for batch 46: 0.723 0.723
+16:34:15 main.py[line:52] loss for batch 47: 0.719 0.719
+16:34:19 main.py[line:52] loss for batch 48: 0.723 0.723
+16:34:22 main.py[line:52] loss for batch 49: 0.708 0.708
+16:34:26 main.py[line:52] loss for batch 50: 0.712 0.712
+16:34:29 main.py[line:52] loss for batch 51: 0.718 0.718
+16:34:32 main.py[line:52] loss for batch 52: 0.710 0.710
+16:34:35 main.py[line:52] loss for batch 53: 0.714 0.714
+16:34:39 main.py[line:52] loss for batch 54: 0.708 0.708
+16:34:42 main.py[line:52] loss for batch 55: 0.699 0.699
+16:34:45 main.py[line:52] loss for batch 56: 0.712 0.712
+16:34:48 main.py[line:52] loss for batch 57: 0.722 0.722
+16:34:51 main.py[line:52] loss for batch 58: 0.705 0.705
+16:34:55 main.py[line:52] loss for batch 59: 0.713 0.713
+16:34:58 main.py[line:52] loss for batch 60: 0.721 0.721
+16:35:03 main.py[line:52] loss for batch 61: 0.705 0.705
+16:35:08 main.py[line:52] loss for batch 62: 0.717 0.717
+16:35:15 main.py[line:52] loss for batch 63: 0.721 0.721
+16:35:18 main.py[line:52] loss for batch 64: 0.715 0.715
+16:35:21 main.py[line:52] loss for batch 65: 0.718 0.718
+16:35:24 main.py[line:52] loss for batch 66: 0.711 0.711
+16:35:27 main.py[line:52] loss for batch 67: 0.720 0.720
+16:35:31 main.py[line:52] loss for batch 68: 0.721 0.721
+16:35:34 main.py[line:52] loss for batch 69: 0.719 0.719
+16:38:31 main.py[line:31] command: python /Volumes/LENOVO_USB_/git_code/sentiment/code/Linguistically-Regularized-LSTM-for-Sentiment-Classification/main.py
+16:38:51 RLstm.py[line:35] Model init: test
+16:38:51 RLstm.py[line:39] RandomStream seed 17747366
+16:38:51 RLstm.py[line:45] dim: hidden=300, leaf=50
+16:38:51 RLstm.py[line:48] grained: 2
+16:38:51 RLstm.py[line:55] vocabulary size: {'negation': 7, 'intensifier': 6, 'sentiment': 0, 'words': 112323}
+16:38:53 RLstm.py[line:120] loading word vectors...
+16:39:06 RLstm.py[line:135] word vector for negation, 0 not found.
+16:39:06 RLstm.py[line:135] word vector for intensifier, 0 not found.
+16:39:06 RLstm.py[line:135] word vector for sentiment, 0 not found.
+16:39:08 RLstm.py[line:135] word vector for words, 86240 not found.
+16:39:08 RLstm.py[line:139] init function...
+16:39:09 RLstm.py[line:182] getting grads...
+16:39:09 RLstm.py[line:198] compiling func of train...
+16:39:21 RLstm.py[line:206] compiling func of test...
+16:39:25 main.py[line:53] loss for batch 0: 0.670 0.670
+16:39:28 main.py[line:53] loss for batch 1: 0.658 0.658
+16:39:33 main.py[line:53] loss for batch 2: 0.666 0.666
+16:39:36 main.py[line:53] loss for batch 3: 0.665 0.665
+16:39:40 main.py[line:53] loss for batch 4: 0.662 0.662
+16:39:44 main.py[line:53] loss for batch 5: 0.668 0.668
+16:39:49 main.py[line:53] loss for batch 6: 0.660 0.660
+16:39:52 main.py[line:53] loss for batch 7: 0.673 0.673
+16:39:56 main.py[line:53] loss for batch 8: 0.666 0.666
+16:40:00 main.py[line:53] loss for batch 9: 0.666 0.666
+16:40:04 main.py[line:53] loss for batch 10: 0.672 0.672
+16:40:07 main.py[line:53] loss for batch 11: 0.665 0.665
+16:40:11 main.py[line:53] loss for batch 12: 0.660 0.660
+16:40:14 main.py[line:53] loss for batch 13: 0.654 0.654
+16:40:16 main.py[line:53] loss for batch 14: 0.666 0.666
+16:40:19 main.py[line:53] loss for batch 15: 0.659 0.659
+16:40:23 main.py[line:53] loss for batch 16: 0.670 0.670
+16:40:28 main.py[line:53] loss for batch 17: 0.669 0.669
+16:40:32 main.py[line:53] loss for batch 18: 0.660 0.660
+16:40:36 main.py[line:53] loss for batch 19: 0.674 0.674
+16:40:39 main.py[line:53] loss for batch 20: 0.664 0.664
+16:40:43 main.py[line:53] loss for batch 21: 0.659 0.659
+16:40:47 main.py[line:53] loss for batch 22: 0.662 0.662
+16:40:49 main.py[line:53] loss for batch 23: 0.664 0.664
+16:40:53 main.py[line:53] loss for batch 24: 0.679 0.679
+16:40:58 main.py[line:53] loss for batch 25: 0.665 0.665
+16:41:01 main.py[line:53] loss for batch 26: 0.674 0.674
+16:41:07 main.py[line:53] loss for batch 27: 0.667 0.667
+16:41:11 main.py[line:53] loss for batch 28: 0.661 0.661
+16:41:15 main.py[line:53] loss for batch 29: 0.661 0.661
+16:41:18 main.py[line:53] loss for batch 30: 0.677 0.677
+16:41:21 main.py[line:53] loss for batch 31: 0.665 0.665
+16:41:24 main.py[line:53] loss for batch 32: 0.674 0.674
+16:41:28 main.py[line:53] loss for batch 33: 0.654 0.654
